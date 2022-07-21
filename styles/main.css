@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(224, 125, 125);
+    max-width: 70%;
+    margin: auto;
+    box-shadow: 0 0 3px 2px rgb(240, 4, 4);
+    padding: 15 px 10px;
+    
+}
+
+.firis-text{
+    color: aqua;
+}
+nav > ul > li {
+    list-style-type:none;
+    float: right;
+    margin-right: 50px;
+    
+}
+nav> ul> li:hover {
+    background-color:wheat;
+    border-radius: 40px;
+    color: blue;
+    padding: 4px;
+    opacity: 0.5;
+transition: all 0.5s ease;
+counter-reset: ;
+
+}
+nav a {
+    text-decoration:  none;
+    color: rgb(26, 2, 2);
+}
+
